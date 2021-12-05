@@ -7,6 +7,10 @@
   width: 344px;
   background-color: #f8f8f8;
   border-radius: 3rem;
+ 
+  @media (max-width: 376px) {
+    border-radius: 0;
+  }
 }
 
 header {

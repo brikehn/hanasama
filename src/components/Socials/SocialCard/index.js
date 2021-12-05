@@ -8,6 +8,7 @@ import {
   faArrowRight
 } from '@fortawesome/free-solid-svg-icons'
 import Tooltip from '../Tooltip/index'
+import { isMobile } from 'react-device-detect'
 
 const SocialCard = ({ icon, label, color, link }) => {
   const [copyIcon, setCopyIcon] = useState(farClone)
@@ -35,7 +36,7 @@ const SocialCard = ({ icon, label, color, link }) => {
         {label.name}
         <span style={{ color: '#ffffffaa' }}>{label.subname}</span>
       </span>
-      {link
+      {!isMobile && link
         ? (
         <span
           className="arrow-btn"
@@ -68,7 +69,7 @@ const SocialCard = ({ icon, label, color, link }) => {
           }}
           onClick={handleCopyClick}
         >
-          {tooltipActive && <Tooltip text="COPIED" />}
+          {tooltipActive && <Tooltip text="copied" />}
           <FontAwesomeIcon icon={copyIcon} opacity={copyIconOpacity} />
         </span>
           )}
