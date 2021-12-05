@@ -1,0 +1,55 @@
+.socials {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  background-color: #8a9dad;
+  padding: 2rem 2rem;
+}
+
+.social-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 280px;
+  padding: 1rem;
+  color: #ffffff;
+  font-weight: 600;
+  border-radius: 2rem;
+}
+
+.copy-btn {
+  padding-right: 0.35rem;
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  background-color: #bebebe;
+  color: #fff;
+  text-align: center;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+
+  position: absolute;
+  z-index: 1;
+  top: -5px;
+  left: 150%;
+}
+
+.tooltip .tooltiptext::after {
+  content: " ";
+  position: absolute;
+  top: 50%;
+  right: 100%;
+  margin-top: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent #bebebe transparent transparent;
+}
+

@@ -1,0 +1,38 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  margin: 3rem auto;
+  width: 344px;
+  background-color: #f8f8f8;
+  border-radius: 3rem;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  color: #8a9dad;
+  font-family: 'Inconsolata', monospace;
+  font-size: 1.5rem;
+  text-align: center;
+  line-height: 3rem;
+  h1 {
+    font-family: 'JosefinSans-Bold';
+    margin: 2rem 0 0;
+  }
+  p {
+    margin: 1rem 0 2rem;
+  }
+  & span {
+    font-family: 'Redacted-Regular';
+    font-size: 1.5rem;
+  }
+}
+
+footer {
+  padding: 1rem 0 1rem;
+  font-family: 'RedactedScript-Regular';
+  color: #8a9dad;
+  text-align: center;
+}
