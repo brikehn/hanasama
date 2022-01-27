@@ -1,25 +1,26 @@
 {
   "files": {
     "main.css": "/static/css/main.168e37f4.chunk.css",
-    "main.js": "/static/js/main.d7bbdf55.chunk.js",
-    "main.js.map": "/static/js/main.d7bbdf55.chunk.js.map",
+    "main.js": "/static/js/main.11ad0ec7.chunk.js",
+    "main.js.map": "/static/js/main.11ad0ec7.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.788036ab.js",
     "runtime-main.js.map": "/static/js/runtime-main.788036ab.js.map",
-    "static/js/2.dd6b6392.chunk.js": "/static/js/2.dd6b6392.chunk.js",
-    "static/js/2.dd6b6392.chunk.js.map": "/static/js/2.dd6b6392.chunk.js.map",
+    "static/js/2.bc5aee1e.chunk.js": "/static/js/2.bc5aee1e.chunk.js",
+    "static/js/2.bc5aee1e.chunk.js.map": "/static/js/2.bc5aee1e.chunk.js.map",
     "index.html": "/index.html",
     "static/css/main.168e37f4.chunk.css.map": "/static/css/main.168e37f4.chunk.css.map",
-    "static/js/2.dd6b6392.chunk.js.LICENSE.txt": "/static/js/2.dd6b6392.chunk.js.LICENSE.txt",
+    "static/js/2.bc5aee1e.chunk.js.LICENSE.txt": "/static/js/2.bc5aee1e.chunk.js.LICENSE.txt",
     "static/media/Discord-Logo-White.9a823ca6.svg": "/static/media/Discord-Logo-White.9a823ca6.svg",
     "static/media/index.css": "/static/media/RedactedScript-Regular.49276913.woff2",
     "static/media/Riot_Games-Logo.89df38f2.svg": "/static/media/Riot_Games-Logo.89df38f2.svg",
     "static/media/Spotify-Logo.a2637516.svg": "/static/media/Spotify-Logo.a2637516.svg",
-    "static/media/Steam-Logo.d02b87d2.svg": "/static/media/Steam-Logo.d02b87d2.svg"
+    "static/media/Steam-Logo.d02b87d2.svg": "/static/media/Steam-Logo.d02b87d2.svg",
+    "static/media/Twitch-Logo.1bceb263.svg": "/static/media/Twitch-Logo.1bceb263.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.788036ab.js",
-    "static/js/2.dd6b6392.chunk.js",
+    "static/js/2.bc5aee1e.chunk.js",
     "static/css/main.168e37f4.chunk.css",
-    "static/js/main.d7bbdf55.chunk.js"
+    "static/js/main.11ad0ec7.chunk.js"
   ]
 }
